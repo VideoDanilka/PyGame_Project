@@ -1,6 +1,6 @@
 import pygame
 
-
+print('Крестики нолики')
 circle1 = False
 circle2 = False
 circle3 = False
