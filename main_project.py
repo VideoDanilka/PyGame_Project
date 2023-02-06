@@ -1,6 +1,7 @@
 import pygame
 
-
+print('Крестики нолики')
+t = 0
 circle1 = False
 circle2 = False
 circle3 = False
@@ -25,7 +26,6 @@ cross2 = False
 cross3 = False
 cross4 = False
 cross5 = False
-cross6 = False
 cross7 = False
 cross8 = False
 cross9 = False
