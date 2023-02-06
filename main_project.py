@@ -109,6 +109,48 @@ if __name__ == '__main__':
                         b += 1
                         print(b)
                         repeat_move9 = True
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_t:
+                    circle1 = False
+                    circle2 = False
+                    circle3 = False
+                    circle4 = False
+                    circle5 = False
+                    circle6 = False
+                    circle7 = False
+                    circle8 = False
+                    circle9 = False
+                    b = 0
+                    repeat_move1 = False
+                    repeat_move2 = False
+                    repeat_move3 = False
+                    repeat_move4 = False
+                    repeat_move5 = False
+                    repeat_move6 = False
+                    repeat_move7 = False
+                    repeat_move8 = False
+                    repeat_move9 = False
+                    cross1 = False
+                    cross2 = False
+                    cross3 = False
+                    cross4 = False
+                    cross5 = False
+                    cross6 = False
+                    cross7 = False
+                    cross8 = False
+                    cross9 = False
+                    x_win = False
+                    o_win = False
+                    win = False
+                    step1 = False
+                    step2 = False
+                    step3 = False
+                    step4 = False
+                    step5 = False
+                    step6 = False
+                    step7 = False
+                    step8 = False
+                    step9 = False
         screen.fill('blue4')
         pygame.draw.line(screen, (255, 255, 255), (w // 3, 0), (w // 3, h), width=3)
         pygame.draw.line(screen, (255, 255, 255), (w // 3 * 2, 0), (w // 3 * 2, h), width=3)
