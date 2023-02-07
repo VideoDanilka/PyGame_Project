@@ -26,6 +26,7 @@ cross2 = False
 cross3 = False
 cross4 = False
 cross5 = False
+cross6 = False
 cross7 = False
 cross8 = False
 cross9 = False
