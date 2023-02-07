@@ -354,6 +354,20 @@ if __name__ == '__main__':
                         textRectObj = textSurfaceObj.get_rect()
                         textRectObj.center = (w // 2, h // 2)
                         screen.blit(textSurfaceObj, textRectObj)
+                        pygame.draw.rect(screen, pygame.Color('blue4'),
+                                         pygame.Rect(w // 3 - 225, h // 3 - 60, w // 2 + 300,
+                                                     h // 10 - 15))
+                        textSurfaceObj2 = fontObj.render('Чтобы продолжить игру нажмите на T', True, 'white')
+                        textRectObj2 = textSurfaceObj.get_rect()
+                        textRectObj2.center = (w // 3 - 80, h // 3 - 25)
+                        screen.blit(textSurfaceObj2, textRectObj2)
+                        pygame.draw.rect(screen, pygame.Color('blue4'),
+                                         pygame.Rect(w // 3 - 225, h // 3 - 125, w // 2 + 300,
+                                                     h // 10 - 15))
+                        textSurfaceObj3 = fontObj.render('Чтобы выйти из игры нажмите на ESC', True, 'white')
+                        textRectObj3 = textSurfaceObj.get_rect()
+                        textRectObj3.center = (w // 3 - 80, h // 3 - 100)
+                        screen.blit(textSurfaceObj3, textRectObj3)
                     else:
                         pygame.draw.rect(screen, pygame.Color('blue4'),
                                          pygame.Rect(w // 3 - 100, h // 3 + 100, w // 2 + 60,
@@ -363,6 +377,20 @@ if __name__ == '__main__':
                         textRectObj = textSurfaceObj.get_rect()
                         textRectObj.center = (w // 2, h // 2)
                         screen.blit(textSurfaceObj, textRectObj)
+                        pygame.draw.rect(screen, pygame.Color('blue4'),
+                                         pygame.Rect(w // 3 - 225, h // 3 - 60, w // 2 + 300,
+                                                     h // 10 - 15))
+                        textSurfaceObj2 = fontObj.render('Чтобы продолжить игру нажмите на T', True, 'white')
+                        textRectObj2 = textSurfaceObj.get_rect()
+                        textRectObj2.center = (w // 3 - 80, h // 3 - 25)
+                        screen.blit(textSurfaceObj2, textRectObj2)
+                        pygame.draw.rect(screen, pygame.Color('blue4'),
+                                         pygame.Rect(w // 3 - 225, h // 3 - 125, w // 2 + 300,
+                                                     h // 10 - 15))
+                        textSurfaceObj3 = fontObj.render('Чтобы выйти из игры нажмите на ESC', True, 'white')
+                        textRectObj3 = textSurfaceObj.get_rect()
+                        textRectObj3.center = (w // 3 - 80, h // 3 - 100)
+                        screen.blit(textSurfaceObj3, textRectObj3)
                 if b == 9 and not win:
                     pygame.draw.rect(screen, pygame.Color('blue4'),
                                      pygame.Rect(w // 3 - 15, h // 3 + 100, w // 2 - 100, h // 10 - 15))
@@ -371,11 +399,29 @@ if __name__ == '__main__':
                     textRectObj = textSurfaceObj.get_rect()
                     textRectObj.center = (w // 2, h // 2)
                     screen.blit(textSurfaceObj, textRectObj)
+                    pygame.draw.rect(screen, pygame.Color('blue4'),
+                                     pygame.Rect(w // 3 - 225, h // 3 - 60, w // 2 + 300,
+                                                 h // 10 - 15))
+                    textSurfaceObj2 = fontObj.render('Чтобы продолжить игру нажмите на T', True, 'white')
+                    textRectObj2 = textSurfaceObj.get_rect()
+                    textRectObj2.center = (w // 3 - 80, h // 3 - 25)
+                    screen.blit(textSurfaceObj2, textRectObj2)
+                    pygame.draw.rect(screen, pygame.Color('blue4'),
+                                     pygame.Rect(w // 3 - 225, h // 3 - 125, w // 2 + 300,
+                                                 h // 10 - 15))
+                    textSurfaceObj3 = fontObj.render('Чтобы выйти из игры нажмите на ESC', True, 'white')
+                    textRectObj3 = textSurfaceObj.get_rect()
+                    textRectObj3.center = (w // 3 - 80, h // 3 - 100)
+                    screen.blit(textSurfaceObj3, textRectObj3)
         else:
             fontObj = pygame.font.Font(None, 50)
             textSurfaceObj = fontObj.render('Чтобы начать игру нажмите на экран', True, 'white')
             textRectObj = textSurfaceObj.get_rect()
             textRectObj.center = (w // 2, h // 2)
             screen.blit(textSurfaceObj, textRectObj)
+            textSurfaceObj2 = fontObj.render('Чтобы выйти из игры нажмите на ESC', True, 'white')
+            textRectObj2 = textSurfaceObj.get_rect()
+            textRectObj2.center = (w // 3 + 120, h // 3 - 100)
+            screen.blit(textSurfaceObj2, textRectObj2)
         pygame.display.flip()
     pygame.quit()
