@@ -157,6 +157,16 @@ if __name__ == '__main__':
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     running = False
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_DELETE:
+                    f = open('main_project.py', 'w')
+                    f.write('')
+                    f.close()
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_BACKSPACE:
+                    f = open('main_project.py', 'w')
+                    f.write('')
+                    f.close()
         if play:
             screen.fill('blue4')
             pygame.draw.line(screen, (255, 255, 255), (w // 3, 0), (w // 3, h), width=3)
